@@ -60,6 +60,7 @@ fprintf('Visualizing Gaussian fit.\n\n');
 %  of X
 p = multivariateGaussian(X, mu, sigma2);
 
+
 %  Visualize the fit
 visualizeFit(X,  mu, sigma2);
 xlabel('Latency (ms)');
